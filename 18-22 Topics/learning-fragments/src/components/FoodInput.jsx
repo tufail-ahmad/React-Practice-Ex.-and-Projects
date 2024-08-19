@@ -1,6 +1,8 @@
+import { useState } from "react";
 import styles from "./FoodInput.module.css";
 
-const FoodInput = ({ handleKeyDown, handleOnClick }) => {
+const FoodInput = ({ handleKeyDown }) => {
+  let buttonName = "Add";
   return (
     <div className={styles.inputContainer}>
       <input
@@ -9,9 +11,6 @@ const FoodInput = ({ handleKeyDown, handleOnClick }) => {
         className={styles.foodInput}
         onKeyDown={handleKeyDown}
       />
-      <button onClick={handleOnClick} className={styles.button}>
-        Add
-      </button>
     </div>
   );
 };

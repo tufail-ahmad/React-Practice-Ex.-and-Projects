@@ -16,6 +16,7 @@ function App() {
       setFoodItems(newItems);
     }
   };
+
   return (
     <Container>
       <h1 className="item-heading">Healthy Foods</h1>
