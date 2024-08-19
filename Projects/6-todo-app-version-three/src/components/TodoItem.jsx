@@ -1,15 +1,17 @@
+import { RiDeleteBin6Fill } from "react-icons/ri";
+
 function TodoItem({ todoName, todoDate, onDeleteClick }) {
   return (
-    <div class="row my-row">
-      <div class="col-6">{todoName}</div>
-      <div class="col-4">{todoDate}</div>
-      <div class="col-2">
+    <div className="row my-row">
+      <div className="col-6">{todoName}</div>
+      <div className="col-4">{todoDate}</div>
+      <div className="col-2">
         <button
           type="button"
-          class="btn btn-danger"
+          className="btn btn-danger"
           onClick={() => onDeleteClick(todoName)}
         >
-          Delete
+          <RiDeleteBin6Fill />
         </button>
       </div>
     </div>
