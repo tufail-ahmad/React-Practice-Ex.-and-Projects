@@ -1,0 +1,30 @@
+.my-heading {
+  font-weight: 700;
+  font-size: 45px;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 15px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 2, 36, 1) 0%,
+    rgba(9, 38, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  padding-bottom: 8px;
+  width: 100%;
+}
+input {
+  width: 100%;
+}
+button {
+  width: 100%;
+}
+.item-container {
+  text-align: left;
+}
+.todo-container {
+  margin: 20px;
+}
+.my-row {
+  margin: 10px;
+}
